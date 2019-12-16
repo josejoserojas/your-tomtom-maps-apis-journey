@@ -1,0 +1,17 @@
+title: your-tomtom-maps-apis-journey
+tagline: A brand new course on Learning Lab
+description: TomTom Maps SDK for Web tutorial
+template:
+  repo: your-tomtom-maps-apis-journey-template
+  name: your-tomtom-maps-apis-journey
+before:
+  - type: createIssue
+    title: Welcome!
+    body: new-issue.md
+steps:
+  - title: First step
+    description: The first step in your course
+    event: issues.assigned
+    link: '{{ repoUrl }}'
+    actions:
+      - type: closeIssue
